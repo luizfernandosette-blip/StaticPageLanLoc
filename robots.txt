@@ -1,0 +1,22 @@
+# robots.txt — LAN LOC Locação de Equipamentos
+# https://www.lanloc.com.br
+
+# Permitir todos os robôs de busca
+User-agent: *
+Allow: /
+
+# Bloquear arquivos desnecessários para indexação
+Disallow: /css/
+Disallow: /js/
+Disallow: /img/
+Disallow: /*.map$
+
+# Permitir explicitamente a página principal e o sitemap
+Allow: /index.html
+Allow: /sitemap.xml
+
+# Sitemap
+Sitemap: https://www.lanloc.com.br/sitemap.xml
+
+# Velocidade de crawl recomendada (1 requisição por segundo)
+Crawl-delay: 1
